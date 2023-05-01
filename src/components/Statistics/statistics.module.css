@@ -2,19 +2,23 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: auto;
+    width: 450px;
+    border: 0.1rem solid rgb(77, 76, 76);
 }
 
 .title {
     text-transform: uppercase;
-    color: #2f04cb;
+    color: #010006;
     font-size: 20px;
-    margin-top: 50px;
+    margin-top: 20px;
     margin-bottom: 20px;
 
 }
 
 .statList {
     display: flex;
+    border-top: 0.1rem solid #080808;
 }
 
 .item {
@@ -23,15 +27,16 @@
     align-items: center;
     padding: 15px;
     width: 60px;
+    background-color: rgb(225, 229, 229);
 }
 
 .label {
-    color: #161414;
+    color: #231adb;
     margin-bottom: 7px;
 }
 
 .percentage {
-    color: #080808;
+    color: #23200c;
     font-size: 20px;
     font-weight: 600;
 }
